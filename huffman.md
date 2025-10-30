@@ -176,75 +176,75 @@ This section explains technical terms used in the notes that are not explicitly 
 
 ### Multiple Choice Questions (MCQs)
 
-**1. Which of these is an example of *lossy* compression?**
-* (a) Huffman coding
-* (b) Lempel-Ziv
-* (c) .gif
-* (d) .jpg
-* **Answer: (d) .jpg** (Examples of lossy compression include .jpg, .mp3, and .mpg. Huffman and Lempel-Ziv/.gif are lossless).
+1.  **Which of these is an example of *lossy* compression?**
+    * (a) Huffman coding
+    * (b) Lempel-Ziv
+    * (c) .gif
+    * (d) .jpg
+    * **Answer:** (d) .jpg (Examples of lossy compression include .jpg, .mp3, and .mpg. Huffman and Lempel-Ziv/.gif are lossless).
 
-**2. ASCII is an example of...**
-* (a) A variable-length code
-* (b) A fixed-length code
-* (c) A prefix-free code
-* (d) A lossy code
-* **Answer: (b) A fixed-length code**.
+2.  **ASCII is an example of...**
+    * (a) A variable-length code
+    * (b) A fixed-length code
+    * (c) A prefix-free code
+    * (d) A lossy code
+    * **Answer:** (b) A fixed-length code.
 
-**3. In a prefix-free code, no codeword is a _______ of another codeword.**
-* (a) Suffix
-* (b) Reversal
-* (c) Prefix
-* (d) Child
-* **Answer: (c) Prefix**.
+3.  **In a prefix-free code, no codeword is a _______ of another codeword.**
+    * (a) Suffix
+    * (b) Reversal
+    * (c) Prefix
+    * (d) Child
+    * **Answer:** (c) Prefix.
 
-**4. In the binary tree representation of a prefix-free code, characters are *only* found at the...**
-* (a) Root node
-* (b) Leaf nodes
-* (c) Internal nodes
-* (d) Nodes with a '0' edge
-* **Answer: (b) Leaf nodes**.
+4.  **In the binary tree representation of a prefix-free code, characters are *only* found at the...**
+    * (a) Root node
+    * (b) Leaf nodes
+    * (c) Internal nodes
+    * (d) Nodes with a '0' edge
+    * **Answer:** (b) Leaf nodes.
 
-**5. An optimal prefix code is always represented by what kind of tree?**
-* (a) A binary search tree
-* (b) A complete binary tree
-* (c) A full binary tree
-* (d) A balanced binary tree
-* **Answer: (c) A full binary tree**.
+5.  **An optimal prefix code is always represented by what kind of tree?**
+    * (a) A binary search tree
+    * (b) A complete binary tree
+    * (c) A full binary tree
+    * (d) A balanced binary tree
+    * **Answer:** (c) A full binary tree.
 
-**6. The runtime of the Huffman algorithm using a min-priority queue is...**
-* (a) $O(n)$
-* (b) $O(n^2)$
-* (c) $O(n \log n)$
-* (d) $O(2^n)$
-* **Answer: (c) $O(n \log n)$**.
+6.  **The runtime of the Huffman algorithm using a min-priority queue is...**
+    * (a) $O(n)$
+    * (b) $O(n^2)$
+    * (c) $O(n \log n)$
+    * (d) $O(2^n)$
+    * **Answer:** (c) $O(n \log n)$.
 
-**7. Which algorithm uses a top-down, divide and conquer approach but is *not* guaranteed to be optimal?**
-* (a) Huffman
-* (b) Lempel-Ziv
-* (c) Fano-Shannon
-* (d) ASCII
-* **Answer: (c) Fano-Shannon**.
+7.  **Which algorithm uses a top-down, divide and conquer approach but is *not* guaranteed to be optimal?**
+    * (a) Huffman
+    * (b) Lempel-Ziv
+    * (c) Fano-Shannon
+    * (d) ASCII
+    * **Answer:** (c) Fano-Shannon.
 
-**8. At each step, the Huffman algorithm merges the two nodes with the...**
-* (a) Highest frequencies
-* (b) Lowest frequencies
-* (c) Deepest depth
-* (d) Shortest codewords
-* **Answer: (b) Lowest frequencies**.
+8.  **At each step, the Huffman algorithm merges the two nodes with the...**
+    * (a) Highest frequencies
+    * (b) Lowest frequencies
+    * (c) Deepest depth
+    * (d) Shortest codewords
+    * **Answer:** (b) Lowest frequencies.
 
-**9. Given `a=1`, `b=110`, `c=10`, `d=111`, why is the string `1101111` ambiguous?**
-* (a) Because `c` is a prefix of `d`.
-* (b) Because `a` is a prefix of `b`.
-* (c) Because the code is not full.
-* (d) The string is not ambiguous.
-* **Answer: (b) Because `a` is a prefix of `b`**. (The string could be `bad` or `acad`).
+9.  **Given `a=1`, `b=110`, `c=10`, `d=111`, why is the string `1101111` ambiguous?**
+    * (a) Because `c` is a prefix of `d`.
+    * (b) Because `a` is a prefix of `b`.
+    * (c) Because the code is not full.
+    * (d) The string is not ambiguous.
+    * **Answer:** (b) Because `a` is a prefix of `b`. (The string could be `bad` or `acad`).
 
-**10. How is the total number of bits $B(D)$ for an encoded file calculated using the tree?**
-* (a) The sum of all frequencies in the tree.
-* (b) The sum of the depths of all leaves.
-* (c) The sum of (frequency $\times$ depth) for all internal nodes.
-* (d) The sum of (frequency $\times$ depth) for all leaf nodes (characters).
-* **Answer: (d) The sum of (frequency $\times$ depth) for all leaf nodes (characters)**.
+10. **How is the total number of bits $B(D)$ for an encoded file calculated using the tree?**
+    * (a) The sum of all frequencies in the tree.
+    * (b) The sum of the depths of all leaves.
+    * (c) The sum of (frequency $\times$ depth) for all internal nodes.
+    * (d) The sum of (frequency $\times$ depth) for all leaf nodes (characters).
+    * **Answer:** (d) The sum of (frequency $\times$ depth) for all leaf nodes (characters).
 
 ### Short Answer Questions
 
